@@ -16,6 +16,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        'manrope': ['Manrope', 'serif']
                     }
                 }
             }
@@ -23,7 +26,7 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <!-- Main Content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- Header -->
@@ -128,7 +131,7 @@
         </section>
 
         <!-- Review Section -->
-        <section class="mb-34">
+        <section class="mb-24">
             <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1
             lg:grid-cols-2 text-white px-7 md:px-16">
                 <!-- Text -->
@@ -194,7 +197,110 @@
                 </div>
             </div>
         </section>
+
+        <!-- News Section -->
+        <section class="mb-24">
+            <div>
+                <!-- Text -->
+                <div class="text-center my-16">
+                    <h2 class="text-[#1C1C1C] font-extrabold text-3xl md:text-4xl mb-5">News & Events</h2>
+                    <p class="text-stone-500">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. </p>
+                </div>
+                <!-- Card -->
+                <div class="flex justify-between gap-6">
+                    <div class="p-5 rounded-md border text-stone-500 flex flex-col gap-y-4">
+                        <img src="./images/news-1.png" alt="" class="rounded-lg">
+                        <span>Feb 05, 2027</span>
+                        <h3 class="text-[#1C1C1C] font-bold">Collecting 8 points for <br> discount</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="" class="text-[#1C1C1C] font-bold">Learn More</a>
+                    </div>
+
+                    <div class="p-5 rounded-md border text-stone-500 flex flex-col gap-y-4">
+                        <img src="./images/news-1.png" alt="" class="rounded-lg">
+                        <span>Feb 05, 2027</span>
+                        <h3 class="text-[#1C1C1C] font-bold">Collecting 8 points for <br> ddiscount</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="" class="text-[#1C1C1C] font-bold">Learn More</a>
+                    </div>
+
+                    <div class="p-5 rounded-md border text-stone-500 flex flex-col gap-y-4">
+                        <img src="./images/news-1.png" alt="" class="rounded-lg">
+                        <span>Feb 05, 2027</span>
+                        <h3 class="text-[#1C1C1C] font-bold">Collecting 8 points for <br> discount</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <a href="" class="text-[#1C1C1C] font-bold">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="bg-orange-100 h-3/4 text-gray-700 py-10 px-4 md:px-16">
+        <div class="w-9/12 mx-auto">
+            <!-- Logo -->
+            <div class="mb-8 flex justify-between">
+                <img src="./images/cup.png" alt="" class="mb-8">
+                <div class="flex items-center gap-2">
+                    <h4>Ready to get started?</h4>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 gap-2 rounded-lg text-white font-bold">Get
+                        Started</button>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                        <li><a href="#" class="hover:text-orange-500">About</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Insurance</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-orange-500">Life</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Car</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                        <li><a href="#" class="hover:text-orange-500">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Help</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                        <li><a href="#" class="hover:text-orange-500">About</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Subscribe to our <br> newsteller</h3>
+                    <div class="flex flex-col space-y-2">
+                        <div>
+                            <input type="text" placeholder="Email Address"
+                                class="bg-transparent border-b-2 border-black w-4/5">
+                            <i
+                                class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
+                        </div>
+                        <div class="flex justify-between w-2/5 mb-2 mt-8">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
